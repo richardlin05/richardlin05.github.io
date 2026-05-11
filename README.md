@@ -2,7 +2,7 @@
 
 Welcome to my personal website! 🌐
 
-🔗 **Live Site:** [richardlinengineer.github.io](https://richardlinengineer.github.io/)
+🔗 **Live Site:** [richardlin05.github.io](https://richardlin05.github.io/)
 
 This website serves as an online portfolio showcasing my academic journey, projects, technical skills, and ways to connect.  
 It is also part of my self-learning journey in **HTML5, CSS3, and JavaScript**.
@@ -29,7 +29,7 @@ I am a **Temple University ECE undergraduate** and **Temple STEPS scholar**, pas
 
 ## 📂 Project Structure
 ```
-RichardLinEngineer/
+RichardLin05/
 ├── css/
 │   └── styles.css
 ├── images/
@@ -58,7 +58,7 @@ RichardLinEngineer/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/RichardLinEngineer/richardlinengineer.github.io.git
+git clone https://github.com/richardlin05/richardlin05.github.io.git
 ```
 2. Open index.html in a browser to view the site locally, or host on GitHub Pages.
 3. Customize content in HTML, CSS, or JSON translation files (`/js/lang.json`) as needed.
@@ -73,7 +73,7 @@ This site supports English and Chinese (中文) using a `lang.json` file. Users 
 - 💬 WeChat: rich3452
 - 💬 Line: rich3452
 - 🔗 LinkedIn: [linkedin.com/in/richardlin05](https://www.linkedin.com/in/richardlin05/)
-- 💻 GitHub: [github.com/RichardLinEngineer](https://github.com/RichardLinEngineer/)
+- 💻 GitHub: [github.com/richardlin05](https://github.com/richardlin05/)
 
 ## ⚡ License
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
