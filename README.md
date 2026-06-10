@@ -3,7 +3,7 @@
 🔗 **Live Site:** [richardlin05.github.io](https://richardlin05.github.io/)
 
 Personal portfolio showcasing my academic background, technical projects, and ways to connect — built from scratch as part of my journey into web development and frontend engineering.
- 
+
 I'm a **Temple University Electrical & Computer Engineering undergraduate** and **Temple STEPS Scholar**, interested in **robotics, AI, and sustainable energy**.
 
 ## Features
@@ -60,8 +60,8 @@ Supports English and Chinese (中文) via `lang.json`. Users can switch language
 
 ## Contact
 - 📧 Email: richlin3452@gmail.com
-- 🔗 LinkedIn: [linkedin.com/in/richardlin05](https://www.linkedin.com/in/richardlin05/)
-- 💻 GitHub: [github.com/richardlin05](https://github.com/richardlin05/)
+- ![LinkedIn Logo](/images/linkedin.png) LinkedIn: [linkedin.com/in/richardlin05](https://www.linkedin.com/in/richardlin05/)
+- ![GitHub Logo](/images/github.png) GitHub: [github.com/richardlin05](https://github.com/richardlin05/)
 
 ## License
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
