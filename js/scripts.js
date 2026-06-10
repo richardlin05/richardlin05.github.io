@@ -1,6 +1,6 @@
 // Load Navbar
 // Fetch the navbar html and insert it into the page
-fetch("/nav.html")
+fetch("/partials/nav.html")
   .then(response => response.text())
   .then(data => {
     // Insert the fetched navbar html into the page
@@ -16,7 +16,7 @@ fetch("/nav.html")
 
 // Load Footer
 // Fetch the footer html and insert it into the page
-fetch("/footer.html")
+fetch("/partials/footer.html")
   .then(response => response.text())
   .then(data => {
     // Insert the fetched footer html into the page
