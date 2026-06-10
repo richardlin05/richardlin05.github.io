@@ -1,35 +1,29 @@
 # Richard Lin - Personal Website
 
-Welcome to my personal website! 🌐
-
 🔗 **Live Site:** [richardlin05.github.io](https://richardlin05.github.io/)
 
-This website serves as an online portfolio showcasing my academic journey, projects, technical skills, and ways to connect.  
-It is also part of my self-learning journey in **HTML5, CSS3, and JavaScript**.
+Personal portfolio showcasing my academic background, technical projects, and ways to connect — built from scratch as part of my journey into web development and frontend engineering.
+ 
+I'm a **Temple University Electrical & Computer Engineering undergraduate** and **Temple STEPS Scholar**, interested in **robotics, AI, and sustainable energy**.
 
-> 💡 Built from scratch as part of my journey into web development and frontend engineering.
+## Features
+- **Home** — Introduction and biography
+- **Projects** — Showcase of technical work
+- **Resume** — Academic achievements, skills, and awards
+- **Contact** — Connect via email, LinkedIn, WeChat, or Line
+- **Language Toggle** — Switch between English and Chinese (中文)
 
-I am a **Temple University ECE undergraduate** and **Temple STEPS scholar**, passionate about **robotics, AI, and sustainable energy**, building innovative projects with real-world impact.
+## Built With
+- **Languages & Markup:** HTML5, CSS3, JavaScript
+- **Icons:** [Font Awesome 6](https://fontawesome.com/)
+- **Hosting & Deployment:** GitHub Pages
+- **Dynamic Elements:** 
+  - `fetch` API for dynamic navbar and footer loading
+  - Custom JavaScript for language translation, navbar interactions, and a responsive mobile menu
 
-## 🚀 Features
-- **Home** – Introduction and biography.
-- **Projects** – Showcase of technical projects (currently under construction).
-- **Resume** – Academic achievements, skills, and awards.
-- **Contact** – Multiple ways to connect via email, phone, WeChat, and Line.
-- **Language Toggle** – Switch between English and 中文.
-
-## 🛠️ Built With
-
-- **Languages & Markup**: HTML5, CSS3, JavaScript
-- **Icons**: [Font Awesome 6](https://fontawesome.com/)
-- **Hosting / Deployment**: GitHub Pages
-- **Tools**:  
-  - `fetch` API for dynamic navbar/footer loading  
-  - Custom JavaScript for language translation, navbar interactions, and responsive menu  
-
-## 📂 Project Structure
+## Project Structure
 ```
-RichardLin05/
+richardlin05.github.io/
 ├── css/
 │   └── styles.css
 ├── images/
@@ -40,40 +34,34 @@ RichardLin05/
 ├── js/
 │   ├── lang.json
 │   └── scripts.js
-├── pages/  
+├── pages/
 │   ├── contact.html
 │   ├── projects.html
-│   └── resume.html  
+│   └── resume.html
+├── partials/
+│   ├── nav.html
+│   └── footer.html
 ├── .gitignore
 ├── LICENSE
 ├── README.md
 ├── favicon.ico
-├── footer.html
-├── index.html
-└── nav.html
+└── index.html
 ```
 
-## ⚡ Getting Started
-
-1. Clone the repository:
-
+## Getting Started
 ```bash
 git clone https://github.com/richardlin05/richardlin05.github.io.git
 ```
-2. Open index.html in a browser to view the site locally, or host on GitHub Pages.
-3. Customize content in HTML, CSS, or JSON translation files (`/js/lang.json`) as needed.
+Open `index.html` in a browser to view locally. Customize content in the HTML files or edit translations in `js/lang.json`.
 
 
-## 🌐 Translations
-This site supports English and Chinese (中文) using a `lang.json` file. Users can switch languages via the dropdown in the navbar. Language preference is saved using localStorage.
+## Translations
+Supports English and Chinese (中文) via `lang.json`. Users can switch languages from the navbar; preference is saved with `localStorage`.
 
-## 📬 Contact
+## Contact
 - 📧 Email: richlin3452@gmail.com
-- 📱 Phone: +1 215-403-4999
-- 💬 WeChat: rich3452
-- 💬 Line: rich3452
 - 🔗 LinkedIn: [linkedin.com/in/richardlin05](https://www.linkedin.com/in/richardlin05/)
 - 💻 GitHub: [github.com/richardlin05](https://github.com/richardlin05/)
 
-## ⚡ License
+## License
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
