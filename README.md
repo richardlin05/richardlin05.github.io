@@ -27,10 +27,12 @@ richardlin05.github.io/
 ├── css/
 │   └── styles.css
 ├── images/
-│   ├── Line.jpg
-│   ├── Logo.png
-│   ├── RichardLin.jpg
-│   └── Wechat.jpg
+│   ├── github.svg
+│   ├── line.jpg
+│   ├── linkedin.svg
+│   ├── logo.png
+│   ├── richardlin.jpg
+│   └── wechat.jpg
 ├── js/
 │   ├── lang.json
 │   └── scripts.js
@@ -60,8 +62,8 @@ Supports English and Chinese (中文) via `lang.json`. Users can switch language
 
 ## Contact
 - 📧 Email: richlin3452@gmail.com
-- ![LinkedIn Logo](/images/linkedin.png) LinkedIn: [linkedin.com/in/richardlin05](https://www.linkedin.com/in/richardlin05/)
-- ![GitHub Logo](/images/github.png) GitHub: [github.com/richardlin05](https://github.com/richardlin05/)
+- ![LinkedIn Logo](/images/linkedin.svg) LinkedIn: [linkedin.com/in/richardlin05](https://www.linkedin.com/in/richardlin05/)
+- ![GitHub Logo](/images/github.svg) GitHub: [github.com/richardlin05](https://github.com/richardlin05/)
 
 ## License
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
