@@ -1,1 +1,173 @@
+% Richard Lin – Resume LaTeX Template
+% Compile with: pdflatex richard_lin_resume.tex
 
+\documentclass[11pt, letterpaper]{article}
+
+% ── Packages ────────────────────────────────────────────────────────────────
+\usepackage[margin=0.55in, top=0.45in, bottom=0.45in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
+\usepackage[sfdefault]{carlito}  % Carlito (Calibri equivalent)
+
+% ── Hyperlink styling ────────────────────────────────────────────────────────
+\hypersetup{
+    colorlinks=true,
+    urlcolor=black,
+    linkcolor=black
+}
+
+% ── Section title formatting ─────────────────────────────────────────────────
+\titleformat{\section}
+    {\normalfont\fontsize{11}{13}\selectfont\bfseries\uppercase}
+    {}{0em}{}
+    [\titlerule]
+\titlespacing{\section}{0pt}{4pt}{2pt}
+
+% ── List settings ────────────────────────────────────────────────────────────
+\setlist[itemize]{leftmargin=1.5em, topsep=0pt, itemsep=0pt, parsep=0pt}
+
+% ── No page numbers ──────────────────────────────────────────────────────────
+\pagestyle{empty}
+
+% ── Paragraph spacing ────────────────────────────────────────────────────────
+\setlength{\parskip}{0pt}
+\setlength{\parsep}{0pt}
+
+% ── Custom commands ──────────────────────────────────────────────────────────
+
+% Role entry: {Organization}{Location}{Title}{Date}
+\newcommand{\roleentry}[4]{%
+    \noindent\textbf{#1} \hfill #2 \\
+    \textit{#3} \hfill \textit{#4}%
+    \vspace{0pt}
+}
+
+% Sub-role (same org, different title/date)
+\newcommand{\subrole}[2]{%
+    \noindent\textit{#1} \hfill \textit{#2}%
+    \vspace{0pt}
+}
+
+% Project entry: {Title}{Date}
+\newcommand{\projectentry}[2]{%
+    \noindent\textbf{#1} \hfill \textit{#2}%
+    \vspace{0pt}
+}
+
+% ════════════════════════════════════════════════════════════════════════════
+\begin{document}
+
+% ── Header ──────────────────────────────────────────────────────────────────
+\noindent\hfill U.S. Citizen
+\begin{center}
+    {\Large \textbf{Richard Lin}} \\
+    Huntingdon Valley, PA $|$ 215-403-4999 $|$
+    \href{mailto:richlin3452@gmail.com}{richlin3452@gmail.com} \\
+    \href{https://github.com/RichardLinEngineer}{github.com/RichardLinEngineer} $|$
+    \href{https://richardlinengineer.github.io}{richardlinengineer.github.io} $|$
+    \href{https://linkedin.com/in/richardlin05}{linkedin.com/in/richardlin05}
+\end{center}
+
+\vspace{-8pt}
+
+% ── Education ───────────────────────────────────────────────────────────────
+\section{Education}
+
+\roleentry{Temple University}{Philadelphia, PA}%
+    {Bachelor of Science in Electrical and Computer Engineering}{Diploma Expected: May 2028}
+
+\noindent Minor: Computer Science $|$ Fundamentals of Physics Certificate $|$ GPA: 3.95/4.00 $|$ Dean's List: F24, S25, F25 \\
+\noindent \textbf{Relevant Courses:} Differential Equations; Digital Circuit Design; Circuits \& Electronics I-II; Computation I-II
+
+\vspace{2pt}
+
+% ── Professional Experience ──────────────────────────────────────────────────
+\section{Professional Experience}
+
+\roleentry{Temple University}{Philadelphia, PA}%
+    {Undergraduate Research Assistant -- Computer Fusion Lab (CFL)}{Oct 2025 -- Present}
+
+\noindent \textit{Advisor: Dr. Li Bai}
+\begin{itemize}
+    \item Administered lab website and systems; ensured security, software maintenance and network reliability
+    \item Developed an AI assistive library with recommendation system using Python, LLMs, multi-agent workflows, and RAG to classify 400+ devices into 66 categories and natural-language accessibility matching
+\end{itemize}
+
+\vspace{1pt}
+\subrole{Undergraduate Teaching Assistant}{Aug 2025 -- Present}
+\begin{itemize}
+    \item Assisted faculty with instruction, activities, assignment evaluation, and preparation of course materials
+    \item \textbf{ENGR 1101:} Mentored students in embedded system, programming, circuits with Micro:bit
+    \item \textbf{ENGR 1102:} Supported engineering design and data analysis using Excel, Python, NumPy, and Matplotlib
+    \item \textbf{ECE 1111:} Taught programming fundamentals including C, C++, Python, and Linux/Bash
+\end{itemize}
+
+\vspace{2pt}
+
+% ── Projects ─────────────────────────────────────────────────────────────────
+\section{Projects}
+
+\projectentry{Musical Light Show -- ECE 2352: Circuits and Electronics II}{May 2026}
+\begin{itemize}
+    \item Designed analog audio-processing system that visualizes music audio-reactive LED light show
+    \item Built op-amp amplifier, adjustable gain control, high and low-pass filters, and BJT LED driver circuits
+    \item Validated design and performance through Multisim simulation and hardware testing
+\end{itemize}
+
+\vspace{1pt}
+\projectentry{Detective Conan AI Glasses (Childhood Dream Project)}{June 2026}
+\begin{itemize}
+    \item Designed and built AI smart glasses using Raspberry Pi Zero 2 W and ESP32 with camera, microphone, solar-assisted charging, and a custom 3D-printed enclosure
+    \item Developed voice assistant integrating speech recognition, local/cloud LLMs, and text-to-speech
+    \item Implemented object detection, OCR, face recognition, translation, navigation, and cybersecurity monitoring
+\end{itemize}
+
+\vspace{2pt}
+
+% ── Clubs & Leadership ───────────────────────────────────────────────────────
+\section{Clubs \& Leadership}
+
+\roleentry{Sustainable Temple Energy and Power Scholars (STEPS)}{Philadelphia, PA}%
+    {STEPS Ambassador}{Sep 2024 -- Present}
+\begin{itemize}
+    \item Led STEM demos promoting engineering and energy for HS students; mentored STEPS underclassmen
+\end{itemize}
+
+\vspace{1pt}
+\roleentry{Institute of Electrical and Electronics Engineers (IEEE) -- Temple University}{Philadelphia, PA}%
+    {President}{Sep 2024 -- Present}
+\begin{itemize}
+    \item Led a team of $\sim$11 officers in branch initiatives; outreach, workshops, and student engagement activities
+    \item Increased IEEE SAC conference participation by 70\% through outreach and IEEE membership engagement
+    \item Led a multi-university hardware hackathon with participation from Drexel and UPenn IEEE
+\end{itemize}
+
+\vspace{1pt}
+\roleentry{Temple University Eta Kappa Nu (IEEE-HKN)}{Philadelphia, PA}%
+    {Secretary}{June 2026 -- Present}
+\begin{itemize}
+    \item Coordinate member communications and maintain records for professional development, outreach, and chapter events.
+\end{itemize}
+
+\vspace{1pt}
+\roleentry{Temple University College of Engineering Alumni Association}{Philadelphia, PA}%
+    {Student Representative}{June 2026 -- Present}
+
+\vspace{2pt}
+
+% ── Skills ───────────────────────────────────────────────────────────────────
+\section{Skills}
+
+\noindent
+\textbf{Programming:} Python, C, C++, Java, JavaScript, Bash, HTML/CSS, Verilog/SystemVerilog, MATLAB \\[1pt]
+\textbf{AI:} LLM integration (Ollama, Cloud API), Prompt Engineering, Computer Vision (OpenCV, YOLO), Text-to-Speech, OCR \\[1pt]
+\textbf{Tools:} Git/GitHub, Linux, Raspberry Pi, n8n, FPGA (DE-Lite 10), MultiSim, Arduino, PyTorch, MS Office, AutoCAD \\[1pt]
+\textbf{Skills:} Hardware-Software integration, Multi-Agent Systems, UI/UX development, Circuit Design \& Analysis, Soldering \\[1pt]
+\textbf{Languages:} English, Mandarin Chinese, Fuzhounese, Spanish
+
+\end{document}
